@@ -26,7 +26,7 @@ Things you may want to cover:
 
 |Column|Type|Options|
 |------|----|-------|
-|name|string|null: false|
+|name|string|index: true|
 |e-mail|string|null: false|
 
 ### Association
