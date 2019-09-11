@@ -22,7 +22,7 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
-## userテーブル
+## usersテーブル
 
 |Column|Type|Options|
 |------|----|-------|
@@ -32,7 +32,7 @@ Things you may want to cover:
 ### Association
 - belongs_to :message
 
-## groupテーブル
+## groupsテーブル
 
 |Column|Type|Options|
 |------|----|-------|
@@ -41,7 +41,7 @@ Things you may want to cover:
 ### Association
 - belongs_to :message
 
-## messageテーブル
+## messagesテーブル
 
 |Column|Type|Options|
 |------|----|-------|
