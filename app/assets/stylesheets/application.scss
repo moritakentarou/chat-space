@@ -1,7 +1,13 @@
 // colors.scssとflash.scssをインポート
+@import 'font-awesome-sprockets';
+@import "font-awesome";
 @import "config/colors";
-@import "modules/flash";
-@import "group";
+@import "config/font-size";
+@import "reset";
+@import "mixins/vendor_prefix";
+@import "modules/side_bar";
+@import "modules/chat";
+@import "messages/messages.scss"
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
