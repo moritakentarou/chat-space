@@ -26,19 +26,19 @@ Things you may want to cover:
 
 |Column|Type|Options|
 |------|----|-------|
-|name|string|index: true|
+|name|string|null: false|
 |e-mail|string|null: false|
 
 ### Association
 - has_many :messages
 - has_many :groups, through: :groups_users
-- has_many :members
+- has_many :users
 
 ## groupsテーブル
 
 |Column|Type|Options|
 |------|----|-------|
-|name|string|null: false, foreign_key: true|
+|name|string|null: false|
 
 ### Association
 - has_many :users, through: :groups_users
