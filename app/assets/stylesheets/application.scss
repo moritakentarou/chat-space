@@ -1,4 +1,5 @@
 // colors.scssとflash.scssをインポート
+<<<<<<< Updated upstream
 @import "config/colors";
 @import "modules/flash";
 @import "group";
@@ -17,3 +18,16 @@
  *= require_tree .
  *= require_self
  */
+=======
+@import "font-awesome";
+// @import "config/size";
+@import "config/font-size";
+@import "modules/reset";
+@import "mixins/vendor_prefix";
+@import "modules/chat";
+@import "modules/flash";
+@import "modules/side_bar";
+@import "modules/user";
+@import "modules/group";
+@import "messages/messages.scss"
+>>>>>>> Stashed changes
