@@ -1,9 +1,10 @@
 .side-bar {
   box-sizing: border-box;
-  color: white;
+  float: left;
+  color: $white;
   width: 300px;
   .header {
-    background-color: blueviolet;
+    background-color: $side_blue_dark;
     height: 100px;
     line-height: 100px;
     padding: 0 20px;
@@ -14,19 +15,20 @@
     }
     &__lists {
       display: inline-block;
-      float: right;
+      // float: right;
+      
       .list {
         display: inline-block;
       }
       .icon {
-        color: white;
+        color: $white;
         font-size: $side_header_font;
       }
     }
   }
 
   .groups {
-    background-color: blue;
+    background-color: $side_blue_light;
     height: calc(100vh - 100px);
     padding: 0 20px;
     .group {
