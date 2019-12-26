@@ -1,6 +1,7 @@
 class UsersController < ApplicationController
 
   def edit
+    # link_to 'edit', '/message_params/message'
   end
 
   def update
