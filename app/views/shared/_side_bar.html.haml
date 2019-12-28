@@ -20,16 +20,8 @@
           .group__name
             = group.name
           .group__message
-          
-            メッセージはまだありません
-  -# .right-header
-   
-      
-        -# = link_to new_group_path do
-        -#   -# = icon 'pencil-square-o', class: 'icon'
-        -#   = icon('fas', 'edit', class: 'icon')
-       　　　　　　 -# editボタン編集で必要なのはここ？
-        
+            = group.show_last_message
             
+  
 
   
